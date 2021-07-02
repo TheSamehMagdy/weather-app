@@ -11,7 +11,9 @@ const forecast = (latitude, longitude, callback) => {
 		} else {
 			const weatherData = body;
 			const forecastString = `${weatherData.weather[0].main}. It is currently ${weatherData.main
-				.temp} degrees in ${weatherData.name}.`;
+				.temp} degrees in ${weatherData.name}.
+
+				The high today is ${weatherData.main.temp_max} and the low is ${weatherData.main.temp_min}.`;
 			callback(undefined, forecastString);
 		}
 	});
