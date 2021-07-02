@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 3.5em;
 	margin-bottom: 0.4em;
 }
 
@@ -39,7 +39,7 @@ header a {
 }
 
 .portrait {
-	max-width: 350px;
+	max-width: 300px;
 	border: 3px solid #333;
 	border-radius: 50%;
 	object-fit: cover;
